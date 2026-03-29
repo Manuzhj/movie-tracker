@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="JS.css">
+    <title>Lists.MovieTracker</title>
+</head>
+<body>
+    <div class="body">
+        <a href="JS.html"><img src="logo.jpg" alt="logo" id="logo" width="80"></a>    
+        <a href="#" id="sign-in-link">SIGN IN</a>
+
+<!-- Hidden Sign-In Form -->
+<div id="sign-in-form" class="hidden">
+    <form>
+        <h2>Sign In</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <a href="#" id="forgot-password">Forgot Password?</a>
+
+        <button type="submit">Login</button>
+        <button type="button" id="close-form">Close</button>
+    </form>
+</div>
+
+        <a href="#" id="accountlink">CREATE ACCOUNT</a>
+        <div id="overlay"></div>
+
+<div id="accountform">
+    <form>
+        <h2>Create Account</h2>
+        <label for="fullname">Full name</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm">Confirm Password</label><br>
+        <input type="password" id="confirm" name="confirm" required><br><br>
+
+        <button type="submit">Sign up</button><br><br>
+        <button id="closeform">Cancel</button>
+    </form>
+</div>
+        <a href="films.html">FILMS</a>
+        <a href="lists.html">LISTS</a>
+        <a href="members.html">MEMBERS</a>
+        <a href="journal.html">JOURNAL</a>
+        <form id="search-form" role="search">
+            <input type="search" id="query" name="q" placeholder="Search...">
+            <button type="submit">🔍 <!-- Search icon --></button>
+        </form>
+</div>
+<div class="lists-container">
+    <h2>Browse by Genre</h2>
+    <div class="genre-section" id="action">
+        <h3>Action</h3>
+        <ul>
+            <li>Fast & Furious 9</li>
+            <li>John Wick 4</li>
+            <li>Extraction 2</li>
+        </ul>
+    </div>
+    <div class="genre-section" id="drama">
+        <h3>Drama</h3>
+        <ul>
+            <li>The Pursuit of Happyness</li>
+            <li>Marriage Story</li>
+            <li>Moonlight</li>
+        </ul>
+    </div>
+    <div class="genre-section" id="romance">
+        <h3>Romance</h3>
+        <ul>
+            <li>The Notebook</li>
+            <li>La La Land</li>
+            <li>Pride & Prejudice</li>
+        </ul>
+    </div>
+    <div class="genre-section" id="comedy">
+        <h3>Comedy</h3>
+        <ul>
+            <li>Superbad</li>
+            <li>Jumanji: Welcome to the Jungle</li>
+            <li>The Hangover</li>
+        </ul>
+    </div>
+    <div class="genre-section" id="thriller">
+        <h3>Thriller</h3>
+        <ul>
+            <li>Gone Girl</li>
+            <li>Shutter Island</li>
+            <li>Prisoners</li>
+        </ul>
+    </div>
+</div>
+<footer id="footer">
+    <h3>About</h3>
+    <h3>Contact:+254 758789099999</h3>
+    <h3>Email:MovieTracker254@gmail.com</h3>
+</footer>
+
+<script src="JS.js"></script>
+</body>
+</html>

@@ -1,0 +1,348 @@
+h2 {
+    text-align: center;
+}
+body {
+    background-color: gray;
+}
+.body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    #image {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        max-height: min-content;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+        }
+    #logo {
+        text-align: left;
+        border-radius: 40px;
+        margin-left: 2px;
+    }
+}
+.body a {
+    color: white;
+    margin-left: 45px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.body a:hover {
+    color: #c0392b;
+    transition: 0.3s ease;
+}
+#sign-in-form {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 250px;
+    background-color: navajowhite;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+}
+
+#sign-in-form h2 {
+    text-align: center;
+}
+
+#sign-in-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+#sign-in-form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#sign-in-form button:hover {
+    background-color: #2980b9;
+}
+
+#forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: none;
+    z-index: 998;
+}
+
+#accountform {
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: navajowhite;
+    padding: 20px;
+    z-index: 999;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    display: none;
+}
+
+.body {
+    #search-form {
+        border-radius: 40px;
+    }
+}
+.table {
+    margin-top: 200px;
+    margin-left: 450px;
+    font-size: 30px;
+    text-align: center;
+    position: center;
+    border: none;
+    color: white;
+}
+#accountbutton {
+    background-color: #0f0f0f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.new-content {
+    width: 98%;
+    text-align: center;
+    margin-top: 20px; /* Adds space between the image and new content */
+    padding: 20px;
+    background-color: grey; /* Light background for contrast */
+}
+.movie-list {
+    display: flex; /* Aligns images in a row */
+    gap: 15px; /* Adds space between images */
+    justify-content: center; /* Centers the images */
+}
+
+.movie-list img {
+    width: 150px; /* Adjust size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional rounded corners */
+}
+.box-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    background-color: grey;
+}
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: #d6f7e3cb; 
+    color: white;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box h3 {
+    margin: 5px 0;
+}
+
+.box p {
+    font-size: 14px;
+}
+
+.box button {
+    background-color: #e74c3c; /* Red */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.box button:hover {
+    background-color: #c0392b; /* Darker red */
+}
+.pop {
+    display: flex; /* Aligns boxes in a row */
+    gap: 20px; /* Adds space between boxes */
+    justify-content: center; /* Centers the boxes */
+    background-color: gray;
+}
+
+.pox {
+    display: flex;
+    flex-direction: column; /* Stacks image and text vertically */
+    align-items: center; /* Centers content */
+    width: 150px;
+    text-align: center;
+}
+
+.pox img {
+    width: 100%; /* Makes image fit inside the box */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+.pox p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lists-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.genre-section {
+    margin: 20px 0;
+    text-align: left;
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.genre-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.members-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.member-card {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 2.5%;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.member-photo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.journal-section {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#footer {
+    background-color: gray;
+    text-align: center;
+}
+
+/* Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .body {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .body a {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    #sign-in-form {
+        width: 90%;
+        left: 5%;
+        right: auto;
+    }
+    
+    #accountform {
+        width: 90%;
+        left: 5%;
+        transform: translate(0, -50%);
+        top: 50%;
+    }
+    
+    .table {
+        margin-left: 0;
+        margin-top: 100px;
+        font-size: 20px;
+    }
+    
+    .movie-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    
+    .pop {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pox {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .image-stack, .reviewed-images {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .genre-section {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .member-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .journal-section {
+        padding: 10px;
+    }
+}
+

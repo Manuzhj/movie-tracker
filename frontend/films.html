@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="JS.css">
+    <title>Films.MovieTracker</title>
+</head>
+<body>
+    <div class="body">
+        <a href="JS.html"><img src="logo.jpg" alt="logo" id="logo" width="80"></a>    
+        <a href="#" id="sign-in-link">SIGN IN</a>
+
+<!-- Hidden Sign-In Form -->
+<div id="sign-in-form" class="hidden">
+    <form>
+        <h2>Sign In</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <a href="#" id="forgot-password">Forgot Password?</a>
+
+        <button type="submit">Login</button>
+        <button type="button" id="close-form">Close</button>
+    </form>
+</div>
+
+        <a href="#" id="accountlink">CREATE ACCOUNT</a>
+        <div id="overlay"></div>
+
+<div id="accountform">
+    <form>
+        <h2>Create Account</h2>
+        <label for="fullname">Full name</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm">Confirm Password</label><br>
+        <input type="password" id="confirm" name="confirm" required><br><br>
+
+        <button type="submit">Sign up</button><br><br>
+        <button id="closeform">Cancel</button>
+    </form>
+</div>
+        <a href="films.html">FILMS</a>
+        <a href="lists.html">LISTS</a>
+        <a href="members.html">MEMBERS</a>
+        <a href="journal.html">JOURNAL</a>
+        <form id="search-form" role="search">
+            <input type="search" id="query" name="q" placeholder="Search...">
+            <button type="submit">🔍 <!-- Search icon --></button>
+        </form>
+</div>
+<div class="films">
+  <h2>My Image Gallery</h2>
+  <div class="image-stack">
+    <figure>
+      <img src="Party.jpg" alt="Image 1">
+      <figcaption>Sunset Over Hills</figcaption>
+    </figure>
+    <figure>
+      <img src="Dancers.jpg" alt="Image 2">
+      <figcaption>City Lights</figcaption>
+    </figure>
+    <figure>
+      <img src="gorilla.jpg" alt="Image 3">
+      <figcaption>Forest Trail</figcaption>
+    </figure>
+    <figure>
+      <img src="Actress.jpg" alt="Image 4">
+      <figcaption>Mountain Peak</figcaption>
+    </figure>
+    <figure>
+      <img src="attack-the-block-310-310-174-174-crop-fill.jpg" alt="Image 5">
+      <figcaption>Ocean Waves</figcaption>
+    </figure>
+    <figure>
+      <img src="HydsPark.jpg" alt="Image 6">
+      <figcaption>Desert Dunes</figcaption>
+    </figure>
+    <figure>
+      <img src="Jh2.jpg" alt="Image 7">
+      <figcaption>Snowy Forest</figcaption>
+    </figure>
+  </div>
+  <div class="just-reviewed">
+    <h2><u>Just Reviewed</u></h2>
+    <div class="reviewed-images">
+      <figure>
+        <img src="crop.jpg" alt="Inception">
+        <figcaption>Inception</figcaption>
+      </figure>
+      <figure>
+        <img src="fantastic.jpg" alt="Interstellar">
+        <figcaption>Interstellar</figcaption>
+      </figure>
+      <figure>
+        <img src="Future.jpg" alt="The Matrix">
+        <figcaption>The Matrix</figcaption>
+      </figure>
+      <figure>
+        <img src="fill.jpg" alt="Avatar">
+        <figcaption>Avatar</figcaption>
+      </figure>
+      <figure>
+        <img src="giant.jpg" alt="Gladiator">
+        <figcaption>Gladiator</figcaption>
+      </figure>
+      <figure>
+        <img src="im still here.jpg" alt="Titanic">
+        <figcaption>Titanic</figcaption> 
+      </figure>
+      <figure>
+        <img src="Godfellas.jpg" alt="The Godfather">
+        <figcaption>The Godfather</figcaption>
+      </figure>
+      <figure>
+        <img src="2001.jpg" alt="The Dark Knight">
+        <figcaption>The Dark Knight</figcaption>
+      </figure>
+      <figure>
+        <img src="anora.jpg" alt="Pulp Fiction">
+        <figcaption>Pulp Fiction</figcaption>
+      </figure>
+      <figure>
+        <img src="avtr-crop.jpg" alt="Forrest Gump">
+        <figcaption>Forrest Gump</figcaption>
+      </figure>
+      <figure>
+        <img src="juno.jpg" alt="The Shawshank Redemption">
+        <figcaption>The Shawshank Redemption</figcaption>
+      </figure>
+      <figure>
+        <img src="lost.jpg" alt="The Lord of the Rings">
+        <figcaption>The Lord of the Rings</figcaption>
+      </figure>
+      <figure>
+        <img src="Ipl.jpg" alt="Fight Club">
+        <figcaption>Fight Club</figcaption>
+      </figure>
+      <figure>
+        <img src="avtr-0-48-0-48-crop(15).jpg" alt="Star Wars">
+        <figcaption>Star Wars</figcaption>
+      </figure>
+    </div>
+    <img src="https://a.ltrbxd.com/resized/sm/upload/lz/cd/q9/26/pro-950-0-950-0-0.png?k=37d32a9227"
+     srcset="https://a.ltrbxd.com/sm/upload/lz/cd/q9/26/pro-950.png?k=c065ade008 2x" width="950" height="100"
+      alt="“Ever dreamt of a better version of yourself?”">
+</div>
+</body>
+<footer id="footer">
+    <h3>About</h3>
+    <h3>Contact:+254 758789099999</h3>
+    <h3>Email:MovieTracker254@gmail.com</h3>
+</footer>
+
+<script src="JS.js"></script>
+</body>
+</html>
